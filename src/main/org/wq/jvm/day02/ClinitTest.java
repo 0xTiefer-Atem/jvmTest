@@ -1,4 +1,4 @@
-package org.wq.jvm.chapter02;
+package org.wq.jvm.day02;
 
 public class ClinitTest {
     private int a = 1;

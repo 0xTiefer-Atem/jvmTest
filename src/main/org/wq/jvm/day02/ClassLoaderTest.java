@@ -1,4 +1,4 @@
-package org.wq.jvm.chapter02;
+package org.wq.jvm.day02;
 
 public class ClassLoaderTest {
     public static void main(String[] args) {

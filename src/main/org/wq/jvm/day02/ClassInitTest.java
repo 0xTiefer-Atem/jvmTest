@@ -1,4 +1,4 @@
-package org.wq.jvm.chapter02;
+package org.wq.jvm.day02;
 
 
 //有static修饰时，jvm才会生成<clinit>()方法，没有就不会生成
