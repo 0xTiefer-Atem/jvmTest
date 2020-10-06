@@ -1,4 +1,4 @@
-package org.wq.jvm.chapter01;
+package org.wq.jvm.day01;
 
 public class StackStruTest {
     public static void main(String[] args) {
