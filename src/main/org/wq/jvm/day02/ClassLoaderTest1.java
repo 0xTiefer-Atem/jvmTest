@@ -11,7 +11,7 @@ public class ClassLoaderTest1 {
 
         //获取BootstrapClassLoader能够加载api的路径
         URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
-        for (URL u:urls) {
+        for (URL u : urls) {
             System.out.println(u.toExternalForm());
         }
 
@@ -22,7 +22,7 @@ public class ClassLoaderTest1 {
 
         System.out.println("扩展类加载器");
         String extDir = System.getProperty("java.ext.dirs");
-        for (String path: extDir.split(":")) {
+        for (String path : extDir.split(":")) {
             System.out.println(path);
         }
 
