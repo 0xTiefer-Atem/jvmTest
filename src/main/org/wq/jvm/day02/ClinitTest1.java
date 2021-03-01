@@ -3,12 +3,13 @@ package org.wq.jvm.day02;
 public class ClinitTest1 {
     static class Father {
         public static int A = 1;
+
         static {
             A = 2;
         }
     }
 
-    static class Child extends Father{
+    static class Child extends Father {
         public static int B = A;
     }
 
