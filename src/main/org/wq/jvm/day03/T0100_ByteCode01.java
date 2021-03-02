@@ -7,6 +7,6 @@ package org.wq.jvm.day03;
 
 /**
  * 查看最基本类生成的字节码
- * */
+ */
 public class T0100_ByteCode01 {
 }
