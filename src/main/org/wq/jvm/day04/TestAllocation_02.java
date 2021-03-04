@@ -10,7 +10,7 @@ package org.wq.jvm.day04;
  * VM参数: -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  * -XX:+PrintTenuringDistribution
  * -XX:MaxTenuringThreshold=1 对象晋升老年代的年龄阈值
- * */
+ */
 public class TestAllocation_02 {
 
     private static final int _1MB = 1024 * 1024;
