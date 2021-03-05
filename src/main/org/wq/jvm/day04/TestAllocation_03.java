@@ -11,7 +11,7 @@ package org.wq.jvm.day04;
  * 该年龄的对象就可以直接进入老年代
  * VM参数: -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  * -verbose:gc -XX:+PrintTenuringDistribution -XX:+UseSerialGC
- * */
+ */
 public class TestAllocation_03 {
 
     private static final int _1MB = 1024 * 1024;
