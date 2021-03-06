@@ -7,16 +7,17 @@ package org.wq.jvm.day05;
 
 /**
  * 深入理解java虚拟机-第二版 P226 代码清单 7-7 字段解析
- * */
+ */
 public class DeadLoopClass {
     static {
-        if(true) {
+        if (true) {
             System.out.println(Thread.currentThread() + "init DeadLoopClass");
             while (true) {
 
             }
         }
     }
+
     public static void main(String[] args) {
         Runnable script = () -> {
             System.out.println(Thread.currentThread() + "start");
